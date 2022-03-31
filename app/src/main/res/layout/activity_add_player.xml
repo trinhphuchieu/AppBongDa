@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AddPlayerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tb_add"
+            layout="@layout/toolbar_main" />
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+
+            app:civ_shadow_color="#3f51b5" />
+
+        <Button
+            android:id="@+id/btnAvatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:backgroundTint="#FF9800"
+            android:text="Hình" />
+
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_player_name"
+            android:ems="10"
+            android:hint="Tên cầu thủ"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/edtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_player_birth"
+                android:ems="10"
+                android:hint="Ngày Sinh"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+            <ImageButton
+                android:id="@+id/btnCalendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/edtDate"
+                android:layout_alignBottom="@id/edtDate"
+                android:layout_toEndOf="@id/edtDate"
+                android:src="@drawable/ic_player_calendar" />
+        </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+                android:id="@+id/edtCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_player_country"
+                android:ems="10"
+                android:hint="Quốc tịch"
+                android:inputType="textPersonName"
+                android:padding="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtSalery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_player_salery"
+                android:ems="10"
+                android:hint="Mức Lương"
+                android:inputType="numberDecimal"
+                android:padding="5dp" />
+
+            <Spinner
+                android:id="@+id/spPostion"
+                android:layout_width="160dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_background"
+                android:entries="@array/postion_array" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/edtTropy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_player_achiment"
+            android:ems="10"
+            android:hint="Thành tích"
+            android:inputType="textMultiLine"
+            android:padding="5dp" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/addPlayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:layout_margin="15dp"
+                android:backgroundTint="#FF5722"
+                android:src="@drawable/ic_done_white_24dp" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

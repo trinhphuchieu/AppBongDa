@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:showAsAction="always">
+
+    <item
+        android:id="@+id/likePlayer"
+        android:icon="@drawable/ic_player_nolike"
+        android:title="Yêu thích" />
+    <item
+        android:id="@+id/delPlayer"
+        android:icon="@drawable/icon_delete"
+
+        android:title="Xóa" />
+    <item
+        android:id="@+id/upPlayer"
+        android:icon="@drawable/icon_update"
+        android:title="Cập nhật" />
+
+</menu>

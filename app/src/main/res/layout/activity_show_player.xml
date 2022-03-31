@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3B75E"
+    tools:context=".ShowPlayerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/tb_show"
+            layout="@layout/toolbar_main" />
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgAvatarShow"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+
+            app:civ_shadow_color="#3f51b5" />
+
+
+        <TextView
+            android:id="@+id/showName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_player_name"
+
+            android:padding="5dp"
+            android:text=" Sokratis Papastathopoulos"
+            android:textAlignment="center"
+            android:textColor="#090000"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_player_birth"
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:textAlignment="center"
+                android:textColor="#090000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+
+                android:drawableStart="@drawable/ic_player_country"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#090000"
+                android:textSize="20dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/txtPos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_player_location"
+                android:gravity="center"
+                android:padding="5dp"
+
+                android:textAlignment="center"
+                android:textColor="#090000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtSalery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_player_salery"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="#090000"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txtTropy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_player_achiment"
+            android:padding="5dp"
+            android:textColor="#090000"
+            android:textSize="18dp" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/drawable/custom_input.xml" value="0.14270833333333333" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/drawable/spash.xml" value="0.14444444444444443" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/drawable/spinner_background.xml" value="0.17592592592592593" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/drawable/splashbackground.xml" value="0.13125" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/activity_add_player.xml" value="0.176" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/activity_info_club.xml" value="0.264" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/activity_show_player.xml" value="0.2" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/activity_spash.xml" value="0.1" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/item_player.xml" value="0.4" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/nav_header.xml" value="0.2" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/spinner_item.xml" value="0.13020833333333334" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/layout/toolbar_main.xml" value="0.1125" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/menu/menu_item.xml" value="0.72" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/menu/menu_lvplayer.xml" value="0.1" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/menu/menu_nav.xml" value="0.2222222222222222" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/menu/menu_search.xml" value="0.136" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.13541666666666666" />
+        <entry key="..\:/CodeAndroid/AppBongDa/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12291666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
